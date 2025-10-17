@@ -1,0 +1,17 @@
+.virtualListContainer {
+  position: relative;
+  overflow: auto;
+  width: 600px;
+}
+.virtualListItem {
+  height: 36px;
+  padding: 0 6px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.listWrapper {
+  border: 1px solid #ccc;
+  height: 600px;
+}

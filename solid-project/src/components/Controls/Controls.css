@@ -1,0 +1,31 @@
+.controlsRow {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+.sortControls {
+  display: flex;
+  gap: 8px;
+}
+.filterControls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.controlLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+.controlInput {
+  margin-top: 4px;
+}
+
+.page {
+  padding: 12px;
+}
+
+.itemMeta {
+  font-size: 11px;
+  color: #666;
+}
